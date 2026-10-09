@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##source=simulate_data.py
+##reference=reference.fa
+##contig=<ID=chrP,length=20000>
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total depth">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=AD,Number=R,Type=Integer,Description="Allelic depths (ref,alt)">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read depth">
+##FORMAT=<ID=AF,Number=A,Type=Float,Description="Variant allele fraction">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	BASELINE
+chrP	3001	var1	C	T	.	PASS	DP=1493	GT:AD:DP:AF	0/1:1179,314:1493:0.2103
+chrP	8001	var2	A	G	.	PASS	DP=1393	GT:AD:DP:AF	0/1:1198,195:1393:0.1400
+chrP	13001	var3	C	T	.	PASS	DP=1626	GT:AD:DP:AF	0/1:1593,33:1626:0.0203
+chrP	17001	var4	G	T	.	PASS	DP=1397	GT:AD:DP:AF	0/1:1355,42:1397:0.0301
